@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.signup-popup{
+    position: fixed;
+    width: 100%;
+    height:100vh;
+    background-color: var(--darker-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 69;
+    color:var(--light-text);
+}
+.signup-form{
+    display: inline-flex;
+    flex-direction: column;    
+    background: var(--darker-bg);
+    padding: 0.5rem 1rem;
+}
+.form-span{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+
+}
+.form-switch{
+  text-align: center;
+  margin-top: 1.2rem;
+}
+.login-button{
+  font-size:1.2rem;
+  color: var(--light-text);
+  background: var(--darker-bg);
+  box-sizing: border-box;
+  border:.1rem solid var(--light-text);
+  border-radius: .4rem;
+  padding:.4rem 2.5rem;  
+  margin:0 auto;
+  text-decoration: none;
+  font-family: 'Open sans', sans-serif;
+  width: 10rem;
+  margin-top: 1rem;
+}
+.login-button:hover{
+  background: var(--light-text);
+  color: var(--darker-bg);
+  transition: ease-in-out .14s;
+
+}
+
+.formLabel{
+  font-family: 'Open sans', sans-serif;
+  margin: .1rem 0;
+  margin-left: .2rem;
+  font-size: .9rem;
+}
+.textinputfield{
+  font-family: 'Open sans', sans-serif;
+  background: var(--darker-bg);
+  border:1px solid var(--darker-bg);
+  border-bottom:1px solid var(--darker-text);
+  padding: .5rem .2rem .5rem .2rem;
+  width: 20rem;
+  color:var(--darklight-text);
+  font-size: 1.1rem;
+  letter-spacing: .02rem;
+}
+.textinputfield::placeholder{
+  color:var(--darklight-text);
+}
+.textinputfield:focus{
+  font-family: 'Open sans', sans-serif;
+  background-color: var(--darker-bg);
+  outline: none;
+}
+label{
+  color:var(--light-text);
+  letter-spacing: .02rem;
+}
+.switch-text{
+  text-decoration: none;
+  color:var(--light-text);
+  letter-spacing: .01rem; 
+}

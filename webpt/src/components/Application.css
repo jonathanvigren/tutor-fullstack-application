@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .15rem;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+:root {
+    --lighter-dark:#272b2e;
+    --dark-bg:#1d2124; 
+    --darkish-bg:#15181c; 
+    --darker-bg:#131618; 
+    --light-text:#e0ecf2;
+    --mid-text:#d8e4eb;
+    --darklight-text:#a0b3bd;
+    --darker-text:#435259;
+    --color:rgb(102, 18, 18);
+  }
+.application{
+    background: var(--dark-bg);
+    display: inline-flex;
+    min-width: 100vw;
+}
+.nav{
+    max-width: fit-content;
+}
+.navList{
+    max-width: 25vw;
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--darkish-bg);
+    font-size: 1.7rem;
+    box-shadow: 5px 0px 20px var(--darker-bg);
+}
+.navList ul li{
+    color:var(--mid-text);
+    text-shadow: 2px 2px var(--darker-bg);
+    font-family: 'Open Sans', sans-serif;
+    padding:1.5vh 2vw;
+    background: var(--dark-bg);
+    border-top: 2px solid var(--darker-bg);
+}
+.navList ul a{
+    text-decoration: none;
+}
+.navList ul li:hover{
+    background: var(--darker-bg);
+}
+.navBottom{
+    border-bottom: 2px solid var(--darker-bg);
+}
+.view{
+    width:75vw;
+}
