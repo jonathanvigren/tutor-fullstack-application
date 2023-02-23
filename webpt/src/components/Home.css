@@ -126,29 +126,29 @@ p {
   background-color: var(--dark-bg);
 }
 
-.cumsock{
+.webTutor{
   margin: 35vh 0;
   font-size: 8rem;
   display: inline-flex;
   
 }
 @media only screen and (max-width:850px) {
-  .cumsock{
+  .webTutor{
     font-size: 14vw;
   }
 }
-.cum{
+.web{
   color:var(--color);text-shadow: 4px 4px var(--darker-bg);
   z-index: 1;
 }
-.sock{
+.tutor{
   margin-top: 15vh;
   margin-left: -10vw;
   color:var(--light-text); text-shadow: 4px 4px var(--darker-bg);
   z-index: 0;
 }
 @media only screen and (max-width:850px) {
-  .sock{
+  .tutor{
     margin-top: 10vh;
     margin-left: -15vw;
   }

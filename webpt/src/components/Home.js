@@ -17,14 +17,14 @@ function Home() {
           </ul>
         </nav>
         <div className="home">
-          <div className="cumsock">
-            <h2 className="cum">Remote</h2>
-            <h2 className="sock">PT</h2>
+          <div className="webTutor">
+            <h2 className="web">Web</h2>
+            <h2 className="tutor">Tutor</h2>
           </div>
         </div>
         <div className="about">
           <div>
-            <h3>What is webPT?</h3>
+            <h3>What is Web Tutor?</h3>
             <p>webPT is a cross-platform application for personal trainers, coaches, and nutritionists to help their clients succeed in their goals. The application allows for direct messaging, voice and video calls to make remote sessions easier and helps form a personal connection. Your coach will help you start a healthier lifestyle and guide you through your journey, as well as helping you develop healthier habits that will benefit you long term. webPT is available for free for clients.</p>
           </div>
         </div>
@@ -85,8 +85,8 @@ function Home() {
           <div className="plan">
 
             <h3>Starter Plan</h3>
-            <p>749kr/month</p>
-            <p>You will be getting 1 monthly 50 minute video session with your coach, your coach will also be available to answer your questions in the app and help you along the way.</p>
+            <p>749currency/time</p>
+            <p>This includes a training program, or training plan, made for you, goals, schedule, and preferences. You will be getting 2 weekly 50 minute video sessions with your tutorer, your tutorer will also be available to answer your questions in the app and help you along the way.</p>
 
             <div className="buttonWrapper">
               <button>Choose Plan</button>
@@ -98,8 +98,8 @@ function Home() {
           <div className="plan">
 
             <h3>Standard Plan</h3>
-            <p>1499kr/month</p>
-            <p>This includes a training program, or meal plan, made for you, your body, goals, schedule, and preferences. You will be getting 1 weekly 50 minute video session with your coach, your coach will also be available to answer your questions in the app and help you along the way.</p>
+            <p>1499currency/time</p>
+            <p>This includes a training program, or training plan, made for you, goals, schedule, and preferences. You will be getting 2 weekly 50 minute video sessions with your tutorer, your tutorer will also be available to answer your questions in the app and help you along the way.</p>
 
             <div className="buttonWrapper">
               <button>Choose Plan</button>
@@ -111,8 +111,8 @@ function Home() {
           <div className="plan">
 
             <h3>Premium Plan</h3>
-            <p>2499kr/month</p>
-            <p>This includes a training program, or meal plan, made for you, your body, goals, schedule, and preferences. You will be getting 2 weekly 50 minute video sessions with your coach, your coach will also be available to answer your questions in the app and help you along the way.</p>
+            <p>2499currency/time</p>
+            <p>This includes a training program, or training plan, made for you, goals, schedule, and preferences. You will be getting 2 weekly 50 minute video sessions with your tutorer, your tutorer will also be available to answer your questions in the app and help you along the way.</p>
 
             <div className="buttonWrapper">
               <button>Choose Plan</button>
