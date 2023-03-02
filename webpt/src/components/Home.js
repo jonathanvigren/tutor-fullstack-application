@@ -12,7 +12,7 @@ function Home() {
             <a href="#" className="navItem"><li>About</li></a>
             <a href="#" className="navItem"><li>Features</li></a>
             <a href="#" className="navItem"><li>Become a remote PT</li></a>
-            <Link to="/login" className="navButton"><li>Log in</li></Link>
+            <Link to="/signin" className="navButton"><li>Log in</li></Link>
             <Link to="/signup" className="navButton"><li>Sign up</li></Link>
           </ul>
         </nav>

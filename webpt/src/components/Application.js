@@ -1,8 +1,21 @@
 import './Application.css';
-import { useState } from 'react';
+import { useNavigate, Link } from "react-router-dom";
+import { useState, useContext } from 'react';
+import { AuthContext } from '../context/authContext';
 
+const Application = () => {
+  const { signout } = useContext(AuthContext);
+  const navigate = useNavigate();
 
-function Application() {
+  const handleSignout = async () => {
+    try {
+      await signout();
+      navigate("/signin")
+    } catch (err) {
+      console.log(err)
+    }
+  };
+  
 //Possibly rewrite this shit, even though it technically works
   const [navRender, setNavRender] = useState(1);
 
@@ -56,7 +69,7 @@ function Application() {
             </ul>
             <ul className="bottomNav">
               <a href="#"><li>Options</li></a>
-              <a href="#"><li className="navBottom">Sign Out</li></a>
+              <a href="#" onClick={handleSignout}><li className="navBottom">Sign Out</li></a>
             </ul>
           </nav>
         </div>

@@ -25,11 +25,13 @@ const Signin = () => {
     const submitHandler = async (e) => {
         e.preventDefault();
         try {
-            await signin(enteredCredentials);
-            await navigate("/application")
-            } catch (err) {
-
+            const success = await signin(enteredCredentials);
+            if (success) {
+                navigate("/application");
             }
+        } catch (err) {
+            console.log(err);
+        }
     };
 
     return (
